@@ -12,7 +12,7 @@ public class Alumno {
     public Alumno(String nombre) {
         this.nombre = nombre;
         this.materiasAprobadas = new ArrayList<Materia>();
-        }
+    }
 
     public String getNombre() {
         return nombre;
@@ -31,4 +31,3 @@ public class Alumno {
     }
 
 }
-
